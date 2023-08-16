@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Sans-Serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+ 
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.logo .kemerdekaan{
+  font-size: 2rem;
+  font-weight: 600;
+  color: red;
+}
+.kemerdekaan span {
+  color: #fff;
+}
+.ul a {
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+.ul a:hover {
+  border-bottom: 1px solid red;
+  transition: 0.2s linear;
+}
+.main {
+  background-color: blue;
+}
+.hero {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  background-image: url('IMG_20230816_182548.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  margin: 0 25px;
+}
+.content h1{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+.bungkus {
+  display: flex;
+  align-items: center;
+}
+.text {
+  margin: 10px 5px;
+  text-align: center;
+ font-size: 2rem;
+ color: #ec9f9f;
+}
+.img {
+  display: block;
+  width: 50%;
+  height: 25rem;
+  margin: 40px 5px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 5vh;
+}
+.footer .by {
+  color: red;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*leptop*/
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/*tablet*/
+@media (max-width:768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width:450px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
